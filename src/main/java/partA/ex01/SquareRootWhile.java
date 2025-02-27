@@ -14,13 +14,16 @@ public class SquareRootWhile {
         int sum = (int) Math.sqrt(s);
 
 
-        if (s >= 0) {
-            System.out.println(sum);
-        }
-                while (s < 0) {
 
+                while (s < 0) {
+                    if (s >= 0) {
+                        System.out.println(sum);
+                    }
+                    myObj = new Scanner(System.in);
                     System.out.println("Enter number");
-                    myObj.nextInt();
+                    s = myObj.nextInt();
+
+
 
                 }
         System.out.println(Math.sqrt(s));
