@@ -6,7 +6,7 @@ public class WhileLoop2 {
     public static String whileLoopTwo(){
         String response = "";
 
-        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+        Scanner myObj = new Scanner(System.in);
         System.out.println("Enter number");
         int s  = myObj.nextInt();
 
