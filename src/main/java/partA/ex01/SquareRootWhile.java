@@ -8,13 +8,31 @@ public class SquareRootWhile {
 
 
 
+<<<<<<< HEAD
+        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+        System.out.println("Enter number");
+=======
                 Scanner myObj = new Scanner(System.in);  // Create a Scanner object
                 System.out.println("Enter number");
+>>>>>>> 1a93cbb7170547eb2bd99fda40fcf75c356bc99c
         int s  = myObj.nextInt();
         int sum = (int) Math.sqrt(s);
 
 
 
+<<<<<<< HEAD
+        while (s < 0) {
+            if (s >= 0) {
+                System.out.println(sum);
+            }
+            myObj = new Scanner(System.in);
+            System.out.println("Enter number");
+            s = myObj.nextInt();
+
+
+
+        }
+=======
                 while (s < 0) {
                     if (s >= 0) {
                         System.out.println(sum);
@@ -26,6 +44,7 @@ public class SquareRootWhile {
 
 
                 }
+>>>>>>> 1a93cbb7170547eb2bd99fda40fcf75c356bc99c
         System.out.println(Math.sqrt(s));
 
 
@@ -47,4 +66,8 @@ public class SquareRootWhile {
 
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1a93cbb7170547eb2bd99fda40fcf75c356bc99c

@@ -17,7 +17,24 @@ public class AlgoChallenge {
 
     public static Boolean checkPosOrNeg(int a, int b, boolean negative) {
 
-        return null;
+
+        a = 1;
+        b = -1;
+        if (a > 0 && b < 0){
+           negative = true;
+       }
+        if (b > 0 && a < 0){
+            negative = true;
+        }
+
+        if (a < 0 && b < 0){
+            negative = true;
+        }
+        else {
+            negative = false;
+        }
+
+        return negative;
     }
 
 

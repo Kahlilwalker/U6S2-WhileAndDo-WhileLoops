@@ -10,7 +10,10 @@ public class WhileLoop1 {
                 break;
             }
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3f935dccc21b256e04dec2c2fe0f3b59de9dd62d
 
         return response;
     }
